@@ -7,8 +7,8 @@ import random
 def home(request):
     return render(request, 'generator/home.html')
 
+
 def password(request):
-    
     characters = list('abcdefghijklmnopqrstuvwxyz')
     
     if request.GET.get('uppercase'):
@@ -28,6 +28,4 @@ def password(request):
     
     return render(request, 'generator/password.html', {'password': thepassword})
 
-def about(request):
-    return render(request, 'generator/about.html')
 
