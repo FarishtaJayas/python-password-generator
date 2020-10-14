@@ -4,10 +4,8 @@ from django.http import HttpResponse
 # Create your views here.
 
 def home(request):
-    return HttpResponse('No Bye')
+    return render(request, 'generator/home.html')
 
-def games(request):
-    return HttpResponse('<h1>Video Games Are The Best</h1>')
+def password(request):
+    return render(request, 'generator/password.html')
 
-def ghash(request):
-    return HttpResponse('<h2>Best Clothing Line In BD</h2>')

@@ -19,7 +19,7 @@ from generator import views
 
 urlpatterns = [
     path('', views.home),
-    path('games', views.games),
-    path('ghash', views.ghash),
+    path('generatedpassword/', views.password, name='password'),
+    
     
 ]
