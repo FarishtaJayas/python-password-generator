@@ -1,1 +1,1 @@
-# A simple password generator
+#### It's a lame password generator
