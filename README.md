@@ -1,6 +1,6 @@
 # It's a lame password generator
 
-##commands to run the project
+commands to run the project
 - vagrant up
 - vagrant ssh
 - cd /vagrant/
